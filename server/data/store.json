@@ -1,0 +1,731 @@
+{
+  "users": [
+    {
+      "id": "usr_student_1",
+      "name": "Aditya Sharma",
+      "collegeId": "2023CS0101",
+      "email": "student@college.edu",
+      "password": "$2a$10$r25Ek8qOKYIOIb8KqSWk8OL/UZpeGYo55h99GG.KVAw0hvLXPQZ5S",
+      "phone": "9876543210",
+      "role": "student"
+    },
+    {
+      "id": "usr_student_2",
+      "name": "Priya Patel",
+      "collegeId": "2023IT0204",
+      "email": "priya@college.edu",
+      "password": "$2a$10$YksACfZ48kcuHBPwYDA59uXKY9F14GWTqkJciDuHeKkPK2frs/Hjq",
+      "phone": "9876543211",
+      "role": "student"
+    },
+    {
+      "id": "usr_student_3",
+      "name": "Rahul Verma",
+      "collegeId": "2023EC0312",
+      "email": "rahul@college.edu",
+      "password": "$2a$10$XkJTRKfe75WMqKOJZktkEeZdt5Nzz0V3FRyEjzGy8yT1HuS9vxdh.",
+      "phone": "9876543212",
+      "role": "student"
+    },
+    {
+      "id": "usr_student_4",
+      "name": "Ananya Iyer",
+      "collegeId": "2023ME0415",
+      "email": "ananya@college.edu",
+      "password": "$2a$10$RD056Cyobz0lYwfL3ruWGumq6jpdeR1PokeIdZOs9u2nBXcpEIcdi",
+      "phone": "9876543213",
+      "role": "student"
+    },
+    {
+      "id": "usr_student_5",
+      "name": "Arjun Reddy",
+      "collegeId": "2023EE0520",
+      "email": "arjun@college.edu",
+      "password": "$2a$10$pxaAgVv/SBmzDlCFAJbEIeg4DJM1lOoT8mRwWSfQ4OGkAsNqWlEfe",
+      "phone": "9876543214",
+      "role": "student"
+    },
+    {
+      "id": "usr_admin_1",
+      "name": "Canteen Staff Manager",
+      "collegeId": "STAFF001",
+      "email": "admin@college.edu",
+      "password": "$2a$10$9aekxPjXCtSrwcpdRi0ng.8P/pYmElOZPwvLBl3dKkN1hjLWfEfQK",
+      "phone": "9876543299",
+      "role": "admin"
+    },
+    {
+      "id": "usr_2b8236c3",
+      "name": "POO",
+      "email": "poo@gmail.com",
+      "collegeId": "DFFD123",
+      "phone": "1234567890",
+      "password": "$2a$10$tBT8982viyDyOTHrZpMXCu5kqDlW5r.pmjuxbp8gNL6w37P1cKHZi",
+      "role": "student",
+      "createdAt": "2026-09-23T16:20:24.384Z"
+    }
+  ],
+  "foods": [
+    {
+      "id": "food_01",
+      "name": "Idli Sambar",
+      "category": "Breakfast",
+      "price": 30,
+      "prepTime": "5 mins",
+      "description": "Steamed fluffy rice cakes (2 pcs) served with piping hot vegetable sambar & coconut chutney.",
+      "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80",
+      "availability": true,
+      "rating": 4.8,
+      "isPopular": true
+    },
+    {
+      "id": "food_02",
+      "name": "Veg Noodles",
+      "category": "Meals",
+      "price": 70,
+      "prepTime": "10 mins",
+      "description": "Wok-tossed Hakka noodles with julienned bell peppers, shredded cabbage, carrots & mild chili sauce.",
+      "image": "https://images.unsplash.com/photo-1612927601601-6638404737ce?auto=format&fit=crop&w=600&q=80",
+      "availability": true,
+      "rating": 4.7,
+      "isPopular": true
+    },
+    {
+      "id": "food_03",
+      "name": "Veg Sandwich",
+      "category": "Snacks",
+      "price": 40,
+      "prepTime": "6 mins",
+      "description": "Crispy grilled sandwich with cucumber, tomatoes, seasoned potatoes, cheese & fresh coriander mint chutney.",
+      "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80",
+      "availability": true,
+      "rating": 4.5,
+      "isPopular": true
+    },
+    {
+      "id": "food_04",
+      "name": "Veg Fried Rice",
+      "category": "Meals",
+      "price": 80,
+      "prepTime": "10 mins",
+      "description": "Fragrant basmati rice tossed with garden green peas, carrots, spring onions and savory seasoning.",
+      "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=600&q=80",
+      "availability": true,
+      "rating": 4.9,
+      "isPopular": true
+    },
+    {
+      "id": "food_05",
+      "name": "Masala Dosa",
+      "category": "Breakfast",
+      "price": 40,
+      "prepTime": "8 mins",
+      "description": "Crispy golden crepe roasted in ghee, filled with spiced mashed potato bhaji and served with chutneys.",
+      "image": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?auto=format&fit=crop&w=600&q=80",
+      "availability": true,
+      "rating": 4.9,
+      "isPopular": true
+    },
+    {
+      "id": "food_06",
+      "name": "Lemon Rice",
+      "category": "Meals",
+      "price": 50,
+      "prepTime": "5 mins",
+      "description": "Zesty South Indian turmeric-infused rice tempered with mustard seeds, curry leaves, and crunchy peanuts.",
+      "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=600&q=80",
+      "availability": true,
+      "rating": 4.4,
+      "isPopular": false
+    },
+    {
+      "id": "food_07",
+      "name": "Crispy Samosa (2 Pcs)",
+      "category": "Snacks",
+      "price": 20,
+      "prepTime": "3 mins",
+      "description": "Traditional triangular flaky pastries stuffed with spiced potato mash, served with tangy tamarind dip.",
+      "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=600&q=80",
+      "availability": true,
+      "rating": 4.8,
+      "isPopular": true
+    },
+    {
+      "id": "food_08",
+      "name": "Masala Tea",
+      "category": "Beverages",
+      "price": 15,
+      "prepTime": "3 mins",
+      "description": "Freshly brewed invigorating Assam milk tea infused with crushed ginger, cardamom, and clove spices.",
+      "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=600&q=80",
+      "availability": true,
+      "rating": 4.9,
+      "isPopular": true
+    },
+    {
+      "id": "food_09",
+      "name": "South Indian Filter Coffee",
+      "category": "Beverages",
+      "price": 20,
+      "prepTime": "4 mins",
+      "description": "Frothy, rich filter coffee brewed with authentic chicory blend and creamy frothed milk.",
+      "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80",
+      "availability": true,
+      "rating": 4.8,
+      "isPopular": true
+    },
+    {
+      "id": "food_10",
+      "name": "Fresh Orange Juice",
+      "category": "Beverages",
+      "price": 40,
+      "prepTime": "5 mins",
+      "description": "Pure chilled vitamin C rich juice freshly squeezed from sweet Nagpur oranges. 100% natural, no added sugar.",
+      "image": "https://images.unsplash.com/photo-1613478223719-2ab802602423?auto=format&fit=crop&w=600&q=80",
+      "availability": true,
+      "rating": 4.6,
+      "isPopular": false
+    },
+    {
+      "id": "food_11",
+      "name": "Paneer Kathi Roll",
+      "category": "Snacks",
+      "price": 60,
+      "prepTime": "8 mins",
+      "description": "Soft buttered paratha wrap loaded with tandoori spiced paneer cubes, sautéed capsicum & tangy mint mayo.",
+      "image": "https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=600&q=80",
+      "availability": true,
+      "rating": 4.7,
+      "isPopular": true
+    },
+    {
+      "id": "food_12",
+      "name": "Chole Bhature",
+      "category": "Meals",
+      "price": 75,
+      "prepTime": "12 mins",
+      "description": "North Indian specialty: two hot golden puffed bhaturas served with robust spicy chickpea curry and pickled onions.",
+      "image": "https://images.unsplash.com/photo-1626132647523-66f5bf380027?auto=format&fit=crop&w=600&q=80",
+      "availability": false,
+      "rating": 4.9,
+      "isPopular": true
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-20260923-012",
+      "orderNumber": "ORD-20260923-012",
+      "userId": "usr_2b8236c3",
+      "studentName": "POO",
+      "studentCollegeId": "DFFD123",
+      "studentPhone": "1234567890",
+      "items": [
+        {
+          "foodId": "food_01",
+          "name": "Idli Sambar",
+          "price": 30,
+          "quantity": 1,
+          "subtotal": 30
+        }
+      ],
+      "totalAmount": 30,
+      "paymentMethod": "GPay / UPI",
+      "paymentStatus": "PAID",
+      "transactionId": "TXN202609235664",
+      "orderStatus": "Payment Confirmed",
+      "estimatedPrepTime": 10,
+      "qrData": "{\"orderId\":\"ORD-20260923-012\",\"collegeId\":\"DFFD123\",\"studentName\":\"POO\",\"totalAmount\":30,\"paymentMethod\":\"GPay / UPI\",\"paymentStatus\":\"PAID\",\"timestamp\":\"2026-09-23T16:20:57.216Z\"}",
+      "qrCodeImage": "data:image/png;base64,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",
+      "createdAt": "2026-09-23T16:20:57.294Z",
+      "updatedAt": "2026-09-23T16:20:57.294Z"
+    },
+    {
+      "id": "ORD-20260922-011",
+      "orderNumber": "ORD-20260922-011",
+      "userId": "usr_student_1",
+      "studentName": "Aditya Sharma",
+      "studentCollegeId": "2023CS0101",
+      "studentPhone": "9876543210",
+      "items": [
+        {
+          "foodId": "food_01",
+          "name": "Idli Sambar",
+          "price": 30,
+          "quantity": 2,
+          "subtotal": 60
+        }
+      ],
+      "totalAmount": 60,
+      "paymentMethod": "GPay / UPI",
+      "paymentStatus": "PAID",
+      "transactionId": "TXN2026TEST001",
+      "orderStatus": "Collected",
+      "estimatedPrepTime": 0,
+      "qrData": "{\"orderId\":\"ORD-20260922-011\",\"collegeId\":\"2023CS0101\",\"studentName\":\"Aditya Sharma\",\"totalAmount\":60,\"paymentMethod\":\"GPay / UPI\",\"paymentStatus\":\"PAID\",\"timestamp\":\"2026-09-22T16:35:07.957Z\"}",
+      "qrCodeImage": "data:image/png;base64,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",
+      "createdAt": "2026-09-22T16:35:08.005Z",
+      "updatedAt": "2026-09-22T16:35:08.032Z"
+    },
+    {
+      "id": "ORD-20260922-001",
+      "orderNumber": "ORD-20260922-001",
+      "userId": "usr_student_1",
+      "studentName": "Aditya Sharma",
+      "studentCollegeId": "2023CS0101",
+      "studentPhone": "9876543210",
+      "items": [
+        {
+          "foodId": "food_04",
+          "name": "Veg Fried Rice",
+          "price": 80,
+          "quantity": 1,
+          "subtotal": 80
+        },
+        {
+          "foodId": "food_08",
+          "name": "Masala Tea",
+          "price": 15,
+          "quantity": 1,
+          "subtotal": 15
+        }
+      ],
+      "totalAmount": 95,
+      "paymentMethod": "GPay / UPI",
+      "paymentStatus": "PAID",
+      "transactionId": "TXN20260922001",
+      "orderStatus": "Ready for Pickup",
+      "estimatedPrepTime": 10,
+      "createdAt": "2026-09-22T16:03:37.208Z",
+      "updatedAt": "2026-09-22T16:23:37.209Z",
+      "qrData": "{\"orderId\":\"ORD-20260922-001\",\"collegeId\":\"2023CS0101\",\"totalAmount\":95,\"paymentStatus\":\"PAID\"}"
+    },
+    {
+      "id": "ORD-20260922-002",
+      "orderNumber": "ORD-20260922-002",
+      "userId": "usr_student_2",
+      "studentName": "Priya Patel",
+      "studentCollegeId": "2023IT0204",
+      "studentPhone": "9876543211",
+      "items": [
+        {
+          "foodId": "food_01",
+          "name": "Idli Sambar",
+          "price": 30,
+          "quantity": 2,
+          "subtotal": 60
+        },
+        {
+          "foodId": "food_09",
+          "name": "South Indian Filter Coffee",
+          "price": 20,
+          "quantity": 1,
+          "subtotal": 20
+        }
+      ],
+      "totalAmount": 80,
+      "paymentMethod": "GPay / UPI",
+      "paymentStatus": "PAID",
+      "transactionId": "TXN20260922002",
+      "orderStatus": "Preparing",
+      "estimatedPrepTime": 8,
+      "createdAt": "2026-09-22T16:13:37.209Z",
+      "updatedAt": "2026-09-22T16:20:37.209Z",
+      "qrData": "{\"orderId\":\"ORD-20260922-002\",\"collegeId\":\"2023IT0204\",\"totalAmount\":80,\"paymentStatus\":\"PAID\"}"
+    },
+    {
+      "id": "ORD-20260922-003",
+      "orderNumber": "ORD-20260922-003",
+      "userId": "usr_student_3",
+      "studentName": "Rahul Verma",
+      "studentCollegeId": "2023EC0312",
+      "studentPhone": "9876543212",
+      "items": [
+        {
+          "foodId": "food_02",
+          "name": "Veg Noodles",
+          "price": 70,
+          "quantity": 1,
+          "subtotal": 70
+        },
+        {
+          "foodId": "food_07",
+          "name": "Crispy Samosa (2 Pcs)",
+          "price": 20,
+          "quantity": 1,
+          "subtotal": 20
+        }
+      ],
+      "totalAmount": 90,
+      "paymentMethod": "Cash at Counter",
+      "paymentStatus": "PENDING",
+      "transactionId": null,
+      "orderStatus": "Order Placed",
+      "estimatedPrepTime": 12,
+      "createdAt": "2026-09-22T16:23:37.209Z",
+      "updatedAt": "2026-09-22T16:23:37.209Z",
+      "qrData": "{\"orderId\":\"ORD-20260922-003\",\"collegeId\":\"2023EC0312\",\"totalAmount\":90,\"paymentStatus\":\"PENDING\"}"
+    },
+    {
+      "id": "ORD-20260922-004",
+      "orderNumber": "ORD-20260922-004",
+      "userId": "usr_student_4",
+      "studentName": "Ananya Iyer",
+      "studentCollegeId": "2023ME0415",
+      "studentPhone": "9876543213",
+      "items": [
+        {
+          "foodId": "food_05",
+          "name": "Masala Dosa",
+          "price": 40,
+          "quantity": 1,
+          "subtotal": 40
+        }
+      ],
+      "totalAmount": 40,
+      "paymentMethod": "GPay / UPI",
+      "paymentStatus": "PAID",
+      "transactionId": "TXN20260922004",
+      "orderStatus": "Collected",
+      "estimatedPrepTime": 0,
+      "createdAt": "2026-09-22T14:58:37.209Z",
+      "updatedAt": "2026-09-22T15:28:37.209Z",
+      "qrData": "{\"orderId\":\"ORD-20260922-004\",\"collegeId\":\"2023ME0415\",\"totalAmount\":40,\"paymentStatus\":\"PAID\"}"
+    },
+    {
+      "id": "ORD-20260922-005",
+      "orderNumber": "ORD-20260922-005",
+      "userId": "usr_student_5",
+      "studentName": "Arjun Reddy",
+      "studentCollegeId": "2023EE0520",
+      "studentPhone": "9876543214",
+      "items": [
+        {
+          "foodId": "food_11",
+          "name": "Paneer Kathi Roll",
+          "price": 60,
+          "quantity": 2,
+          "subtotal": 120
+        },
+        {
+          "foodId": "food_10",
+          "name": "Fresh Orange Juice",
+          "price": 40,
+          "quantity": 1,
+          "subtotal": 40
+        }
+      ],
+      "totalAmount": 160,
+      "paymentMethod": "GPay / UPI",
+      "paymentStatus": "PAID",
+      "transactionId": "TXN20260922005",
+      "orderStatus": "Collected",
+      "estimatedPrepTime": 0,
+      "createdAt": "2026-09-22T14:28:37.209Z",
+      "updatedAt": "2026-09-22T15:13:37.209Z",
+      "qrData": "{\"orderId\":\"ORD-20260922-005\",\"collegeId\":\"2023EE0520\",\"totalAmount\":160,\"paymentStatus\":\"PAID\"}"
+    },
+    {
+      "id": "ORD-20260922-006",
+      "orderNumber": "ORD-20260922-006",
+      "userId": "usr_student_1",
+      "studentName": "Aditya Sharma",
+      "studentCollegeId": "2023CS0101",
+      "studentPhone": "9876543210",
+      "items": [
+        {
+          "foodId": "food_03",
+          "name": "Veg Sandwich",
+          "price": 40,
+          "quantity": 1,
+          "subtotal": 40
+        },
+        {
+          "foodId": "food_08",
+          "name": "Masala Tea",
+          "price": 15,
+          "quantity": 1,
+          "subtotal": 15
+        }
+      ],
+      "totalAmount": 55,
+      "paymentMethod": "Cash at Counter",
+      "paymentStatus": "PAID",
+      "transactionId": null,
+      "orderStatus": "Collected",
+      "estimatedPrepTime": 0,
+      "createdAt": "2026-09-22T13:28:37.209Z",
+      "updatedAt": "2026-09-22T14:08:37.209Z",
+      "qrData": "{\"orderId\":\"ORD-20260922-006\",\"collegeId\":\"2023CS0101\",\"totalAmount\":55,\"paymentStatus\":\"PAID\"}"
+    },
+    {
+      "id": "ORD-20260922-007",
+      "orderNumber": "ORD-20260922-007",
+      "userId": "usr_student_2",
+      "studentName": "Priya Patel",
+      "studentCollegeId": "2023IT0204",
+      "studentPhone": "9876543211",
+      "items": [
+        {
+          "foodId": "food_04",
+          "name": "Veg Fried Rice",
+          "price": 80,
+          "quantity": 2,
+          "subtotal": 160
+        }
+      ],
+      "totalAmount": 160,
+      "paymentMethod": "GPay / UPI",
+      "paymentStatus": "PAID",
+      "transactionId": "TXN20260922007",
+      "orderStatus": "Collected",
+      "estimatedPrepTime": 0,
+      "createdAt": "2026-09-22T12:28:37.209Z",
+      "updatedAt": "2026-09-22T13:08:37.209Z",
+      "qrData": "{\"orderId\":\"ORD-20260922-007\",\"collegeId\":\"2023IT0204\",\"totalAmount\":160,\"paymentStatus\":\"PAID\"}"
+    },
+    {
+      "id": "ORD-20260922-008",
+      "orderNumber": "ORD-20260922-008",
+      "userId": "usr_student_3",
+      "studentName": "Rahul Verma",
+      "studentCollegeId": "2023EC0312",
+      "studentPhone": "9876543212",
+      "items": [
+        {
+          "foodId": "food_06",
+          "name": "Lemon Rice",
+          "price": 50,
+          "quantity": 1,
+          "subtotal": 50
+        },
+        {
+          "foodId": "food_09",
+          "name": "South Indian Filter Coffee",
+          "price": 20,
+          "quantity": 1,
+          "subtotal": 20
+        }
+      ],
+      "totalAmount": 70,
+      "paymentMethod": "GPay / UPI",
+      "paymentStatus": "PAID",
+      "transactionId": "TXN20260922008",
+      "orderStatus": "Collected",
+      "estimatedPrepTime": 0,
+      "createdAt": "2026-09-22T11:28:37.209Z",
+      "updatedAt": "2026-09-22T12:08:37.209Z",
+      "qrData": "{\"orderId\":\"ORD-20260922-008\",\"collegeId\":\"2023EC0312\",\"totalAmount\":70,\"paymentStatus\":\"PAID\"}"
+    },
+    {
+      "id": "ORD-20260922-009",
+      "orderNumber": "ORD-20260922-009",
+      "userId": "usr_student_4",
+      "studentName": "Ananya Iyer",
+      "studentCollegeId": "2023ME0415",
+      "studentPhone": "9876543213",
+      "items": [
+        {
+          "foodId": "food_02",
+          "name": "Veg Noodles",
+          "price": 70,
+          "quantity": 2,
+          "subtotal": 140
+        }
+      ],
+      "totalAmount": 140,
+      "paymentMethod": "GPay / UPI",
+      "paymentStatus": "PAID",
+      "transactionId": "TXN20260922009",
+      "orderStatus": "Collected",
+      "estimatedPrepTime": 0,
+      "createdAt": "2026-09-22T10:28:37.209Z",
+      "updatedAt": "2026-09-22T11:08:37.209Z",
+      "qrData": "{\"orderId\":\"ORD-20260922-009\",\"collegeId\":\"2023ME0415\",\"totalAmount\":140,\"paymentStatus\":\"PAID\"}"
+    },
+    {
+      "id": "ORD-20260922-010",
+      "orderNumber": "ORD-20260922-010",
+      "userId": "usr_student_5",
+      "studentName": "Arjun Reddy",
+      "studentCollegeId": "2023EE0520",
+      "studentPhone": "9876543214",
+      "items": [
+        {
+          "foodId": "food_01",
+          "name": "Idli Sambar",
+          "price": 30,
+          "quantity": 1,
+          "subtotal": 30
+        },
+        {
+          "foodId": "food_07",
+          "name": "Crispy Samosa (2 Pcs)",
+          "price": 20,
+          "quantity": 2,
+          "subtotal": 40
+        },
+        {
+          "foodId": "food_08",
+          "name": "Masala Tea",
+          "price": 15,
+          "quantity": 1,
+          "subtotal": 15
+        }
+      ],
+      "totalAmount": 85,
+      "paymentMethod": "Cash at Counter",
+      "paymentStatus": "PAID",
+      "transactionId": null,
+      "orderStatus": "Collected",
+      "estimatedPrepTime": 0,
+      "createdAt": "2026-09-22T09:28:37.209Z",
+      "updatedAt": "2026-09-22T10:08:37.209Z",
+      "qrData": "{\"orderId\":\"ORD-20260922-010\",\"collegeId\":\"2023EE0520\",\"totalAmount\":85,\"paymentStatus\":\"PAID\"}"
+    }
+  ],
+  "payments": [
+    {
+      "id": "PAY-TXN20260922001",
+      "orderId": "ORD-20260922-001",
+      "transactionId": "TXN20260922001",
+      "amount": 95,
+      "method": "GPay / UPI",
+      "status": "SUCCESS",
+      "createdAt": "2026-09-22T16:03:37.208Z"
+    },
+    {
+      "id": "PAY-TXN20260922002",
+      "orderId": "ORD-20260922-002",
+      "transactionId": "TXN20260922002",
+      "amount": 80,
+      "method": "GPay / UPI",
+      "status": "SUCCESS",
+      "createdAt": "2026-09-22T16:13:37.209Z"
+    },
+    {
+      "id": "PAY-TXN20260922004",
+      "orderId": "ORD-20260922-004",
+      "transactionId": "TXN20260922004",
+      "amount": 40,
+      "method": "GPay / UPI",
+      "status": "SUCCESS",
+      "createdAt": "2026-09-22T14:58:37.209Z"
+    },
+    {
+      "id": "PAY-TXN20260922005",
+      "orderId": "ORD-20260922-005",
+      "transactionId": "TXN20260922005",
+      "amount": 160,
+      "method": "GPay / UPI",
+      "status": "SUCCESS",
+      "createdAt": "2026-09-22T14:28:37.209Z"
+    },
+    {
+      "id": "PAY-TXN20260922007",
+      "orderId": "ORD-20260922-007",
+      "transactionId": "TXN20260922007",
+      "amount": 160,
+      "method": "GPay / UPI",
+      "status": "SUCCESS",
+      "createdAt": "2026-09-22T12:28:37.209Z"
+    },
+    {
+      "id": "PAY-TXN20260922008",
+      "orderId": "ORD-20260922-008",
+      "transactionId": "TXN20260922008",
+      "amount": 70,
+      "method": "GPay / UPI",
+      "status": "SUCCESS",
+      "createdAt": "2026-09-22T11:28:37.209Z"
+    },
+    {
+      "id": "PAY-TXN20260922009",
+      "orderId": "ORD-20260922-009",
+      "transactionId": "TXN20260922009",
+      "amount": 140,
+      "method": "GPay / UPI",
+      "status": "SUCCESS",
+      "createdAt": "2026-09-22T10:28:37.209Z"
+    },
+    {
+      "id": "PAY-TXN2026TEST001",
+      "orderId": "ORD-20260922-011",
+      "transactionId": "TXN2026TEST001",
+      "amount": 60,
+      "method": "GPay / UPI",
+      "status": "SUCCESS",
+      "createdAt": "2026-09-22T16:35:08.006Z"
+    },
+    {
+      "id": "PAY-TXN202609235664",
+      "orderId": "ORD-20260923-012",
+      "transactionId": "TXN202609235664",
+      "amount": 30,
+      "method": "GPay / UPI",
+      "status": "SUCCESS",
+      "createdAt": "2026-09-23T16:20:57.295Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_66aa46ce",
+      "userId": "usr_2b8236c3",
+      "orderId": "ORD-20260923-012",
+      "title": "Order Confirmed! 🎉",
+      "message": "Your order ORD-20260923-012 for ₹30 has been placed. Current status: Payment Confirmed.",
+      "type": "placed",
+      "read": false,
+      "createdAt": "2026-09-23T16:20:57.296Z"
+    },
+    {
+      "id": "notif_3c0efd71",
+      "userId": "usr_student_1",
+      "orderId": "ORD-20260922-011",
+      "title": "Order Collected ✅",
+      "message": "Your food has been collected. Thank you for dining with us!",
+      "type": "collected",
+      "read": false,
+      "createdAt": "2026-09-22T16:35:08.033Z"
+    },
+    {
+      "id": "notif_a78ce893",
+      "userId": "usr_student_1",
+      "orderId": "ORD-20260922-011",
+      "title": "Order Confirmed! 🎉",
+      "message": "Your order ORD-20260922-011 for ₹60 has been placed. Current status: Payment Confirmed.",
+      "type": "placed",
+      "read": false,
+      "createdAt": "2026-09-22T16:35:08.007Z"
+    },
+    {
+      "id": "notif_1",
+      "userId": "usr_student_1",
+      "orderId": "ORD-20260922-001",
+      "title": "Order Ready for Pickup!",
+      "message": "Your order ORD-20260922-001 is ready at the canteen counter. Please present your QR code.",
+      "type": "ready",
+      "read": false,
+      "createdAt": "2026-09-22T16:23:37.209Z"
+    },
+    {
+      "id": "notif_2",
+      "userId": "usr_student_2",
+      "orderId": "ORD-20260922-002",
+      "title": "Food Being Prepared",
+      "message": "Chef Rajan started preparing your Idli Sambar and Filter Coffee.",
+      "type": "preparing",
+      "read": false,
+      "createdAt": "2026-09-22T16:20:37.209Z"
+    },
+    {
+      "id": "notif_3",
+      "userId": "usr_student_3",
+      "orderId": "ORD-20260922-003",
+      "title": "Order Placed (Cash Pending)",
+      "message": "Your order ORD-20260922-003 has been placed. Pay ₹90 at counter when collecting.",
+      "type": "placed",
+      "read": false,
+      "createdAt": "2026-09-22T16:23:37.209Z"
+    }
+  ]
+}

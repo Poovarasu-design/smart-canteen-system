@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: smart-canteen-system
+    env: node
+    buildCommand: npm run install:all && npm --prefix client run build
+    startCommand: npm --prefix server run start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 5000
+      - key: JWT_SECRET
+        generateValue: true
